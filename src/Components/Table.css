@@ -1,0 +1,71 @@
+.tableCon{
+    width: 100%;
+    margin: auto;
+}
+
+.tableCon > table{
+    width: 100%;
+}
+
+.tableCon > table > tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.tableCon > table > tr:nth-child(even){
+    background-color: #b1cff2;
+}
+
+.tableCon > table > tr:nth-child(1){
+    background-color: rgb(40, 40, 228);
+    color: #fff;
+}
+
+.tableCon > table > tr > th{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tableCon > table > tr th, td{
+    width: 15%;
+    text-align: center;
+}
+
+.tableCon > table > tr > td{
+    font-size: 18px;
+}
+
+.tableCon > table > tr > td:last-child{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tableCon > table > tr > td:last-child > button{
+    width: 40%;
+    padding: 5px;
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.tableCon > table > tr > td:last-child > button:hover{
+    background-color: rgb(3, 3, 98);
+}
+
+.tableCon > button{
+    border: none;
+    background-color: blue;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tableCon > button:hover{
+    background-color: rgb(3, 3, 89);
+}
